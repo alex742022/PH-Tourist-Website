@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PH-Tourist-Website/static/css/main.578fa47f.css",
+    "main.js": "/PH-Tourist-Website/static/js/main.44838736.js",
+    "static/media/ph-video.mp4": "/PH-Tourist-Website/static/media/ph-video.848b552f008e08a4f5b1.mp4",
+    "static/media/footer.jpg": "/PH-Tourist-Website/static/media/footer.db4397dd7c93e3d310d5.jpg",
+    "static/media/music.webm": "/PH-Tourist-Website/static/media/music.81b0be77519ee9446e44.webm",
+    "index.html": "/PH-Tourist-Website/index.html",
+    "main.578fa47f.css.map": "/PH-Tourist-Website/static/css/main.578fa47f.css.map",
+    "main.44838736.js.map": "/PH-Tourist-Website/static/js/main.44838736.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.578fa47f.css",
+    "static/js/main.44838736.js"
+  ]
+}
