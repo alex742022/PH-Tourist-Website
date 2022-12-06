@@ -1,10 +1,11 @@
 import './App.css';
-import React from 'react';
+import React, { useState} from 'react'
 import Nav from './components/nav'
 import Section from './components/section'
 import TouristData from './components/tourist-data' 
 import LandingPage from './components/landingPage'
-import Footer from './components/footer';
+import Footer from './components/footer'
+
 
 function App() {
   const sectionData = TouristData.map(tourist =>{
@@ -12,7 +13,7 @@ function App() {
   })
 
   // darkmode useState
-  const [darkMode, setDarkMode] = React.useState(false)
+  const [darkMode, setDarkMode] = useState(false)
 
     const darkLight = () => {
         setDarkMode(prevDarkmode => !prevDarkmode)
@@ -20,17 +21,17 @@ function App() {
 
   return (
     <div className="App">
-        <Nav 
-        darkModeButton={darkLight}
-        darkMode={darkMode}
-        />
-        <LandingPage/>
-        <section id="content" className={darkMode ? "darkmode" : ""}>
-          {sectionData}
-        </section>
-        <Footer/>
+        <Nav
+          darkModeButton={darkLight}
+          darkMode={darkMode}
+          />
+          <LandingPage/>
+          <section id="content" className={darkMode ? "darkmode" : ""}>
+            {sectionData}
+          </section>
+          <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;
