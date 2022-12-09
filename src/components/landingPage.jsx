@@ -21,8 +21,7 @@ export default function LandingPage() {
       setPage(true)
     }
   }, [])
-  console.log(vid)
-
+  
   return (
     <section className="landing-page">
       {loadPage ? (
