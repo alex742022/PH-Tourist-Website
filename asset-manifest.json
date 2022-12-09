@@ -1,16 +1,26 @@
 {
   "files": {
     "main.css": "/PH-Tourist-Website/static/css/main.4e71cf72.css",
-    "main.js": "/PH-Tourist-Website/static/js/main.90079908.js",
+    "main.js": "/PH-Tourist-Website/static/js/main.40f1bc34.js",
     "static/media/ph-video.mp4": "/PH-Tourist-Website/static/media/ph-video.848b552f008e08a4f5b1.mp4",
     "static/media/footer.jpg": "/PH-Tourist-Website/static/media/footer.db4397dd7c93e3d310d5.jpg",
     "static/media/music.webm": "/PH-Tourist-Website/static/media/music.81b0be77519ee9446e44.webm",
+    "static/media/kawasan-falls-cebu.avif": "/PH-Tourist-Website/static/media/kawasan-falls-cebu.f161eb5b08d367029b63.avif",
+    "static/media/banaue-rice-terraces-ifugao.avif": "/PH-Tourist-Website/static/media/banaue-rice-terraces-ifugao.ba312b202e29b635f264.avif",
+    "static/media/chocolate-hills-bohol.avif": "/PH-Tourist-Website/static/media/chocolate-hills-bohol.e524a554a2ac672cae75.avif",
+    "static/media/cloud-9-siargao.avif": "/PH-Tourist-Website/static/media/cloud-9-siargao.44ece0d9ae697a67be1a.avif",
+    "static/media/cebu-beaches-diving-spots.avif": "/PH-Tourist-Website/static/media/cebu-beaches-diving-spots.d160059749de1cbb7a58.avif",
+    "static/media/puerto-princesa-underground-river.avif": "/PH-Tourist-Website/static/media/puerto-princesa-underground-river.cbfe0caf1ad53f532dbe.avif",
+    "static/media/kayangan-lake-coron-palawan.avif": "/PH-Tourist-Website/static/media/kayangan-lake-coron-palawan.da549da3b769e25a79f0.avif",
+    "static/media/rizal-park-manila.avif": "/PH-Tourist-Website/static/media/rizal-park-manila.c70f56555544f902b58d.avif",
+    "static/media/white-beach-boracay.avif": "/PH-Tourist-Website/static/media/white-beach-boracay.a0d437f5844f89b0137b.avif",
+    "static/media/taal-volcano-batangas.avif": "/PH-Tourist-Website/static/media/taal-volcano-batangas.57966ef1d575940e99eb.avif",
     "index.html": "/PH-Tourist-Website/index.html",
     "main.4e71cf72.css.map": "/PH-Tourist-Website/static/css/main.4e71cf72.css.map",
-    "main.90079908.js.map": "/PH-Tourist-Website/static/js/main.90079908.js.map"
+    "main.40f1bc34.js.map": "/PH-Tourist-Website/static/js/main.40f1bc34.js.map"
   },
   "entrypoints": [
     "static/css/main.4e71cf72.css",
-    "static/js/main.90079908.js"
+    "static/js/main.40f1bc34.js"
   ]
 }
