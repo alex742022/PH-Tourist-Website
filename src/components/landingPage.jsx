@@ -1,24 +1,35 @@
-import React, { useEffect, useState } from "react";
-import Video from "../assets/ph-video.mp4";
+import React, { useEffect, useState } from "react"
 import Music from "../assets/music.webm";
-import LandingPageAnimation from "./landingPageAnimation";
-
+import LandingPageAnimation from "./landingPageAnimation"
+import VidFile from "../assets/ph-video.mp4"
 export default function LandingPage() {
   // page load
-  const [loadPage, setPage] = useState(false);
-  const [vid, setVid] = useState();
+  const [loadPage, setPage] = useState(true)
+  const [vid, setVid] = useState(null)
+  const [overLay, setOverlay] = useState(true)
 
   useEffect(() => {
-    setVid(Video);
-    setTimeout(() => {
-      setPage(true);
-    }, 4000);
-  }, []);
+    if (VidFile) {
+      setVid(VidFile)
+      setTimeout(() => {
+        setPage(false)
+      }, 2000)
+      setTimeout(() => {
+        setOverlay(false)
+      }, 2500)
+    } else {
+      setPage(true)
+    }
+  }, [])
+  console.log(vid)
+
   return (
     <section className="landing-page">
       {loadPage ? (
+        <LandingPageAnimation />
+      ) : (
         <>
-          <div className="overlay"></div>
+          {overLay ? "" : <div className="overlay"></div>}
           <video src={vid} muted autoPlay loop type="video/mp4"></video>
           <div className="landing-container">
             <div className="text-container">
@@ -41,8 +52,6 @@ export default function LandingPage() {
             </div>
           </div>
         </>
-      ) : (
-        <LandingPageAnimation />
       )}
     </section>
   );
