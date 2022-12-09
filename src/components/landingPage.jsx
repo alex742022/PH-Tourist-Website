@@ -16,7 +16,7 @@ export default function LandingPage() {
       }, 2000)
       setTimeout(() => {
         setOverlay(false)
-      }, 2500)
+      }, 3000)
     } else {
       setPage(true)
     }
