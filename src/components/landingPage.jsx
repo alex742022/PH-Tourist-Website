@@ -43,7 +43,7 @@ export default function LandingPage() {
                 <button>DISCOVER</button>
               </a>
               <div className="audio-container">
-                <audio controls>
+                <audio controls autoPlay>
                   <source src={Music} type="audio/mp3" />
                   Your browser does not support the audio element.
                 </audio>
